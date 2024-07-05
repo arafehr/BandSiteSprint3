@@ -1,0 +1,46 @@
+:root{
+    --BandSite-Black: #323232;
+  --Silver: #AFAFAF;
+  --White: #FFFFFF;
+  --BandSite-DarkBlack: #000000;
+  --Mercury: #E1E1E1;
+  --Alabaster: #FAFAFA;
+  /* --- Font Sizes --- */
+  --font-60: 60px;
+  --font-36: 36px;
+  --font-24: 24px;
+  --font-18: 18px;
+  --font-16: 16px;
+  --font-14: 14px;
+  --font-13: 13px;
+  --font-12: 12px;
+  --font-10: 10px;
+  /* --- Line Height ---- */
+  --Lh-68: 68px;
+  --Lh-44: 44px;
+  --Lh-32: 32px;
+  --Lh-22: 22px;
+  --Lh-20: 20px;
+  --Lh-18: 18px;
+
+  /* --- Font Weights --- */
+  --Fw-700: 700;
+  --Fw-600: 600;
+  --Fw-400: 400;
+
+  /* --- Paddings --- */
+
+  --padding-120: 120px;
+  --padding-100: 100px;
+  --padding-80: 80px;
+  --padding-64: 64px;
+  --padding-56: 56px;
+  --padding-48: 48px;
+  --padding-40: 40px;
+  --padding-32: 32px;
+  --padding-24: 24px;
+  --padding-16: 16px;
+  --padding-8: 8px;
+  --padding-4: 4px;
+
+}

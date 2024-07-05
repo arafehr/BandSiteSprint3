@@ -1,0 +1,144 @@
+.shows-inner{
+    max-width: 1250px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    /* border: 1px solid red; */
+    padding: 0 20px;
+}
+
+.audio{
+    position: relative;
+    z-index: 10;
+}
+
+.hero-section-heading span{
+    font-size: var(--font-36);
+}
+
+.show-hero-section-heading{
+    font-size: var(--font-60);
+    font-weight: bold;
+}
+
+table{
+    margin: 64px;
+    width: 100%;
+
+}
+
+th{
+    color: var(--Silver);
+    font-size: var(--font-12);
+    text-align: left;
+}
+table .date{
+    font-weight: 600;
+}
+
+
+td{
+    padding-top: 10px;
+    border-bottom: 2px solid var(--Silver);
+}
+
+.shows-responsive-table{
+    display: none;
+}
+
+
+@media(max-width: 769px){
+    .shows-inner{
+        max-width: 1250px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 0px;
+        /* border: 1px solid red; */
+    }
+
+    
+    .audio{
+        position: relative;
+        z-index: 10;
+    }
+    
+    .hero-section-heading span{
+        font-size: var(--font-24);
+    }
+    
+    .show-hero-section-heading{
+        font-size: var(--font-24);
+        font-weight: bold;
+    }
+    
+    table{
+        margin: 64px;
+        width: 100%;
+        display: none;
+    }
+    
+    th{
+        color: var(--Silver);
+        font-size: var(--font-12);
+        text-align: left;
+    }
+    table .date{
+        font-weight: 600;
+    }
+    
+    
+    td{
+        padding-top: 10px;
+        border-bottom: 2px solid var(--Silver);
+    }
+
+
+    /* responsive table */
+    .shows-responsive-table{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+    .shows-responsive-table-content-button{
+        border-bottom: 2px solid var(--Silver);
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .shows-responsive-table-title-value{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .shows-responsive-table-title{
+        color: var(--Silver);
+        font-size: var(--font-12);
+    }
+    .shows-responsive-table-value{
+        color: var(--BandSite-DarkBlack);
+        font-size: var(--font-14);
+        font-weight: var(--Fw-600);
+    }
+
+    .bold-value{
+        font-weight: var(--Fw-700);
+    }
+
+    .table-button{
+        width: 100%;
+    }
+
+    .table-button button{
+        width: 100%;
+    }
+
+}
